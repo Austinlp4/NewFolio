@@ -1,10 +1,17 @@
 import React, { Component } from 'react';
 import './App.css';
 import smoke from './video/smoke.mp4';
+import ReactFullpage from '@fullpage/react-fullpage';
+
+const pluginWrapper = () => {
+  require('fullpage.js/vendors/scrolloverflow');
+  require('./statics/fullpage.scrollHorizontally.min');
+};
+
 
 class App extends Component {
   state = {
-    ended: false
+    ended: false,
   }
 
   end = (id) => {
@@ -16,6 +23,8 @@ class App extends Component {
       })
     }, 7000)
   }
+
+
   render() {
     return (
       <div className="App">
