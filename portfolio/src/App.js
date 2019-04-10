@@ -46,10 +46,15 @@ class App extends Component {
               }
               {this.state.ended 
                 ? 
+                <div className='scrollcontain'>
                 <div className='grad-container1'>
                   <div className='grad-bar1'></div> 
                   <div className='grad-bar2'></div> 
                   <div className='grad-bar3'></div> 
+                </div>
+                <div>
+                <h5 className='scrolldown'> Scroll Down</h5>
+                </div>
                 </div>
                 : 
                 null}
@@ -75,11 +80,13 @@ class App extends Component {
               </h1>
               {this.state.ended 
                 ? 
+                
                 <div className='grad-container2'>
-                  <div className='grad-bar4'> About Me </div> 
+                  <div className='grad-bar4'> <a href='#secondPage'>About Me</a></div> 
                   <div className='grad-bar5'> Projects </div> 
                   <div className='grad-bar6'> Contact </div> 
                 </div>
+                
                 : 
                 null}
             </section>

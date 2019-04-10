@@ -63,6 +63,20 @@ h1 span{
   }
 }
 
+@keyframes navone {
+  0%{
+    width: 0%;
+    color: rgba(0,0,0,0)
+  }
+  50%{
+    color:rgba(0,0,0,0)
+  }
+  100%{
+    width: 100%;
+    color: white;
+  }
+}
+
 h1 span:nth-child(1){
   animation-delay: .25s;
 }
@@ -127,6 +141,8 @@ h1 span:nth-child(18){
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
   margin-top: 30px;
+  animation-name: navone;
+  animation-duration: 3s;
 }
 
 .grad-bar2{
@@ -137,6 +153,8 @@ h1 span:nth-child(18){
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
   margin-top: 30px;
+  animation-name: navone;
+  animation-duration: 3s;
 }
 
 .grad-bar3{
@@ -147,6 +165,8 @@ h1 span:nth-child(18){
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
   margin-top: 30px;
+  animation-name: navone;
+  animation-duration: 3s;
 }
 
 .grad-container1{
@@ -168,7 +188,14 @@ h1 span:nth-child(18){
   text-align: end;
   padding-right: 20px;
   font-size: 2rem;
+  animation-name: navone;
+  animation-duration: 3s;
+  cursor: pointer;
+}
 
+.grad-bar4 a {
+  text-decoration: none;
+  color: white;
 }
 
 .grad-bar5{
@@ -184,6 +211,8 @@ h1 span:nth-child(18){
   text-align: end;
   padding-right: 20px;
   font-size: 2rem;
+  animation-name: navone;
+  animation-duration: 3s;
 }
 
 .grad-bar6{
@@ -199,6 +228,8 @@ h1 span:nth-child(18){
   text-align: end;
   padding-right: 20px;
   font-size: 2rem;
+  animation-name: navone;
+  animation-duration: 3s;
 }
 
 .grad-container2{
@@ -210,3 +241,32 @@ h1 span:nth-child(18){
   align-items: flex-end;
   bottom: 4%;
 }
+
+.scrolldown{
+  transform: rotate(90deg);
+  transform-origin: bottom left;
+  margin-left: 10px;
+  color: white;
+  bottom: 0;
+  font-size: 1.5rem;
+  font-weight: lighter;
+}
+
+.scrolldown:after {
+  content:"";
+  display: inline-block;
+  height: 0.5em;
+  vertical-align: bottom;
+  width: 25%;
+  margin-right: -100%;
+  margin-left: 10px;
+  border-top: 1px solid white;
+}
+
+.scrollcontain{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 20vh;
+}
+
