@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import './App.css';
 import smoke from './video/smoke.mp4';
 import ReactFullpage from '@fullpage/react-fullpage';
-
+import wall from './images/smkwall.png';
+import styled from 'styled-components';
 
 class App extends Component {
   state = {
@@ -30,14 +31,14 @@ class App extends Component {
   render() {
     return (
       <ReactFullpage
-        anchors={['firstPage', 'secondPage', 'thirdPage']}
+        anchors={['Home', 'About', 'Projects', 'Skills', 'Blog', 'Contact']}
         scrollOverflow={true}
         onLeave={this.onLeave.bind(this)}
         afterLoad={this.afterLoad.bind(this)}
         render={({ state, fullpageApi }) => {
           return (
             <div className="App">
-            <div className='section section1'>
+            <div className='section section1' >
             <section>
               {!this.state.ended ?
               <video src={smoke} autoPlay muted width='90%' height='100%' onEnded={this.end(this.id)} id='smoke'></video>
@@ -48,7 +49,7 @@ class App extends Component {
                 ? 
                 <div className='scrollcontain'>
                 <div className='grad-container1'>
-                  <div className='grad-bar1'></div> 
+                  <div className='grad-bar1'>Full Stack Web Dev</div> 
                   <div className='grad-bar2'></div> 
                   <div className='grad-bar3'></div> 
                 </div>
@@ -82,7 +83,7 @@ class App extends Component {
                 ? 
                 
                 <div className='grad-container2'>
-                  <div className='grad-bar4'> <a href='#secondPage'>About Me</a></div> 
+                  <div className='grad-bar4'> <a href='#About'>About Me</a></div> 
                   <div className='grad-bar5'> Projects </div> 
                   <div className='grad-bar6'> Contact </div> 
                 </div>
@@ -101,5 +102,6 @@ class App extends Component {
     );
   }
 }
+
 
 export default App;
