@@ -1,0 +1,24 @@
+.about{
+    display: flex;
+    height: 100vh;
+    align-content: center;
+    color: white;
+    font-family: 'Poiret One', cursive;
+}
+
+.imgcont{
+    align-self: center;
+    border-radius: 8px;
+}
+
+img{
+    border-radius: 8px;
+}
+
+.aboutheader{
+    font-size: 3rem;
+}
+
+.contentcont{
+    max-width: 600px;
+}
