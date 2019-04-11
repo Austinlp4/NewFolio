@@ -4,6 +4,7 @@ import smoke from './video/smoke.mp4';
 import ReactFullpage from '@fullpage/react-fullpage';
 import wall from './images/smkwall.png';
 import styled from 'styled-components';
+import propic from './images/profile.png';
 
 class App extends Component {
   state = {
@@ -93,7 +94,22 @@ class App extends Component {
             </section>
             </div>
             <div className='section'>
-
+                <div>
+                  <img src={propic} alt="profile picture"/>
+                </div>
+                <div>
+                  <h2>About Me</h2>
+                  <p>I'm currently located in Fayetteville,AR. I have a lovely wife, Sydney, and a
+                     beatiful daughter, Cyan (2yrs old). I am an art enthusiast and 
+                     practice frequently. I think that my eye for detail has made me a 
+                     better developer, and developing has helped me find an entirely new
+                      medium. I constantly try to learn new languages and frameworks, as
+                       well as try out new stacks. There most certainly is just not enough 
+                       time in a day. Currently pursuing knowledge related to UI/UX design, Vue.js,
+                        and MongoDB.</p>
+                    <h4>Location:</h4>
+                    <h5>Fayetteville, AR</h5>
+                </div>
             </div>
         </div>
           )
