@@ -32,7 +32,7 @@ class App extends Component {
   render() {
     return (
       <ReactFullpage
-        anchors={['Home', 'About', 'Projects', 'Skills', 'Blog', 'Contact']}
+        anchors={['Home', 'About', 'Skills', 'Projects', 'Blog', 'Contact']}
         scrollOverflow={true}
         onLeave={this.onLeave.bind(this)}
         afterLoad={this.afterLoad.bind(this)}
@@ -109,6 +109,11 @@ class App extends Component {
                         and MongoDB.</p>
                     <h4>Location:</h4>
                     <h5>Fayetteville, AR</h5>
+                </div>
+            </div>
+            <div className='section'>
+                <div>
+                  <h2>Skills</h2>
                 </div>
             </div>
         </div>
