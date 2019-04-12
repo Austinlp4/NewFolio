@@ -48,7 +48,7 @@ h1{
 h1 span{
   font-family: 'Poiret One', cursive;
   text-shadow: 2px 2px rgb(191, 0, 255);
-  text-shadow: 3px 3px rgb(0,0, 255);
+  text-shadow: 3px 3px black;
   display: inline-block;
   opacity: 0;
   animation: animate 2s linear forwards;
@@ -171,6 +171,7 @@ h1 span:nth-child(18){
   text-align: start;
   padding-left: 20px;
   font-size: 2rem;
+  text-shadow: 3px 3px black;
 }
 
 .grad-bar2{
@@ -183,6 +184,7 @@ h1 span:nth-child(18){
   margin-top: 30px;
   animation-name: navtwo;
   animation-duration: 3s;
+  text-shadow: 3px 3px black;
 }
 
 .grad-bar3{
@@ -195,6 +197,7 @@ h1 span:nth-child(18){
   margin-top: 30px;
   animation-name: navthree;
   animation-duration: 3s;
+  text-shadow: 3px 3px black;
 }
 
 .grad-container1{
@@ -219,6 +222,7 @@ h1 span:nth-child(18){
   animation-name: navone;
   animation-duration: 3s;
   cursor: pointer;
+  text-shadow: 3px 3px black;
 }
 
 .grad-bar4 a {
@@ -295,6 +299,7 @@ h1 span:nth-child(18){
   font-size: 2rem;
   animation-name: navtwo;
   animation-duration: 3s;
+  text-shadow: 3px 3px black;
 }
 
 .grad-bar6{
@@ -312,6 +317,7 @@ h1 span:nth-child(18){
   font-size: 2rem;
   animation-name: navthree;
   animation-duration: 3s;
+  text-shadow: 3px 3px black;
 }
 
 .grad-container2{
