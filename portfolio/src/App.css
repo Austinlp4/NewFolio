@@ -181,7 +181,7 @@ h1 span:nth-child(18){
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
   margin-top: 30px;
-  animation-name: navone;
+  animation-name: navtwo;
   animation-duration: 3s;
 }
 
@@ -193,7 +193,7 @@ h1 span:nth-child(18){
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
   margin-top: 30px;
-  animation-name: navone;
+  animation-name: navthree;
   animation-duration: 3s;
 }
 
@@ -246,6 +246,40 @@ h1 span:nth-child(18){
   }
 }
 
+@keyframes navtwo{
+  0%{
+    width: 0px;
+    color: rgba(0,0,0,0)
+  }
+  50%{
+    color:rgba(0,0,0,0)
+  }
+  75%{
+    color:rgba(0,0,0,0);
+  }
+  100%{
+    width: 300px;
+    color: white;
+  }
+}
+
+@keyframes navthree{
+  0%{
+    width: 0px;
+    color: rgba(0,0,0,0)
+  }
+  50%{
+    color:rgba(0,0,0,0)
+  }
+  75%{
+    color:rgba(0,0,0,0);
+  }
+  100%{
+    width: 200px;
+    color: white;
+  }
+}
+
 .grad-bar5{
   background: linear-gradient(to right, rgb(0, 0, 255), rgb(191, 0, 255), rgb(255, 0, 64));
   width: 300px;
@@ -259,7 +293,7 @@ h1 span:nth-child(18){
   text-align: end;
   padding-right: 20px;
   font-size: 2rem;
-  animation-name: navone;
+  animation-name: navtwo;
   animation-duration: 3s;
 }
 
@@ -276,7 +310,7 @@ h1 span:nth-child(18){
   text-align: end;
   padding-right: 20px;
   font-size: 2rem;
-  animation-name: navone;
+  animation-name: navthree;
   animation-duration: 3s;
 }
 
