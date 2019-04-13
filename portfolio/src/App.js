@@ -55,9 +55,14 @@ class App extends Component {
                   {this.state.ended ? (
                     <div className="scrollcontain">
                       <div className="grad-container1">
-                        <div className="grad-bar1">Full Stack Web Dev</div>
-                        <div className="grad-bar2" />
-                        <div className="grad-bar3" />
+                        <div className="grad-bar2">Contact</div>
+                        <div className="grad-bar3">Skills</div>
+                        <div className="grad-bar4">
+                        {' '}
+                        <a href="#About">About Me</a>
+                      </div>
+                      <div className="grad-bar5"> Projects </div>
+                      <div className="grad-bar6"> Blog </div>
                       </div>
                       <div>
                         <h5 className="scrolldown"> Scroll Down</h5>
@@ -84,16 +89,20 @@ class App extends Component {
                     <span>S</span>
                     <span>T</span>
                   </h1>
-                  {this.state.ended ? (
+                  {this.state.ended ? 
+                  (<h2>Full Stack Web Developer</h2>
+                    )  : null
+                }
+                  {/* {this.state.ended ? (
                     <div className="grad-container2">
                       <div className="grad-bar4">
                         {' '}
                         <a href="#About">About Me</a>
                       </div>
                       <div className="grad-bar5"> Projects </div>
-                      <div className="grad-bar6"> Contact </div>
+                      <div className="grad-bar6"> Blog </div>
                     </div>
-                  ) : null}
+                  ) : null} */}
                 </section>
               </div>
               <div className="section">
