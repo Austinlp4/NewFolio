@@ -13,12 +13,35 @@
 
 img{
     border-radius: 8px;
+    width: 600px;
 }
 
 .aboutheader{
     font-size: 3rem;
+    color: white;
 }
 
 .contentcont{
     max-width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.barcont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    z-index: 5;
+}
+
+.bar1, .bar2, .bar3{
+    height: 200px;
+    width: 10px;
+    border-radius: 5px;
+    background-color: blue;
+    margin: 20px 5px;
 }

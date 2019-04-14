@@ -100,8 +100,8 @@ class App extends Component {
                 (
                   <div className="social">
                     <a href="https://github.com/Austinlp4" target="_blank"><div className='github'></div></a>
-                    <div className='linkedin'></div>
-                    <div className='insta'></div>
+                    <a href="https://www.linkedin.com/in/austinlp/" target="_blank"><div className='linkedin'></div></a>
+                    <a href="https://www.instagram.com/austin_pendergrast/" target="_blank"><div className='insta'></div></a>
                   </div>
                 ): null  
               }
@@ -124,11 +124,16 @@ class App extends Component {
               </div>
               <div className="section">
                 <div className="about">
+                  <div className="barcont">
+                    <div className='bar1'></div>
+                    <div className='bar2'></div>
+                    <div className='bar3'></div>
+                  </div>
                   <div className="imgcont">
                     <img src={propic} alt="profile" />
                   </div>
                   <div className="contentcont">
-                    <h2 className='aboutheader'>About Me</h2>
+                    <h4 className='aboutheader'>About Me</h4>
                     <p className='aboutcont'>
                       I'm currently located in Fayetteville,AR. I have a lovely
                       wife, Sydney, and a beatiful daughter, Cyan (2yrs old). I

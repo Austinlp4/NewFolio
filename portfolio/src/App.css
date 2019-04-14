@@ -188,7 +188,6 @@ h1 span:nth-child(18){
   text-align: start;
   padding-left: 20px;
   font-size: 2rem;
-  text-shadow: 3px 3px black;
 }
 
 .grad-bar2{
@@ -201,7 +200,6 @@ h1 span:nth-child(18){
   margin-top: 30px;
   animation-name: navone;
   animation-duration: 3s;
-  text-shadow: 3px 3px black;
   color: white;
   font-family: 'Poiret One', cursive;
   text-align: start;
@@ -219,7 +217,6 @@ h1 span:nth-child(18){
   margin-top: 50px;
   animation-name: navtwo;
   animation-duration: 3s;
-  text-shadow: 3px 3px black;
   color: white;
   font-family: 'Poiret One', cursive;
   text-align: start;
@@ -252,7 +249,6 @@ h1 span:nth-child(18){
   animation-name: navthree;
   animation-duration: 3s;
   cursor: pointer;
-  text-shadow: 3px 3px black;
 }
 
 .grad-bar4 a {
@@ -329,7 +325,7 @@ h1 span:nth-child(18){
   font-size: 2rem;
   animation-name: navtwo;
   animation-duration: 3s;
-  text-shadow: 3px 3px black;
+ 
 }
 
 .grad-bar6{
@@ -347,7 +343,7 @@ h1 span:nth-child(18){
   font-size: 2rem;
   animation-name: navone;
   animation-duration: 3s;
-  text-shadow: 3px 3px black;
+  
 }
 
 .grad-container2{
@@ -368,6 +364,8 @@ h1 span:nth-child(18){
   position: absolute;
   right: -10%;
   margin: 0;
+  animation-name: scrolltext;
+  animation-duration: 3s;
 }
 
 .scrolldown:after {
@@ -386,14 +384,28 @@ h1 span:nth-child(18){
   bottom: 0;
 }
 
+@keyframes scrolltext {
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
 .social{
   position: absolute;
   display: flex;
   flex-direction: column;
   top: 0;
-  right: 0;
+  right: -100px;
   margin-right: 10px;
   margin-top: 20px;
+  animation: slide 3s forwards;
+}
+
+@keyframes slide {
+  100% { right: 0; }
 }
 
 .github{
