@@ -174,7 +174,7 @@ h1 span:nth-child(18){
 }
 
 .grad-bar1{
-  background: linear-gradient(to right, rgb(0, 0, 255), rgb(191, 0, 255), rgb(255, 0, 64));
+  background: rgb(192, 6, 183);
   width: 400px;
   height: 40px;
   display: inline-block;
@@ -192,14 +192,14 @@ h1 span:nth-child(18){
 }
 
 .grad-bar2{
-  background: linear-gradient(to right, rgb(0, 0, 255), rgb(191, 0, 255), rgb(255, 0, 64));
+  background: rgb(192, 6, 183);
   width: 300px;
   height: 40px;
   display: inline-block;
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
   margin-top: 30px;
-  animation-name: navtwo;
+  animation-name: navone;
   animation-duration: 3s;
   text-shadow: 3px 3px black;
   color: white;
@@ -210,14 +210,14 @@ h1 span:nth-child(18){
 }
 
 .grad-bar3{
-  background: linear-gradient(to right, rgb(0, 0, 255), rgb(191, 0, 255), rgb(255, 0, 64));
+  background: rgb(192, 6, 183);
   width: 200px;
   height: 40px;
   display: inline-block;
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
-  margin-top: 30px;
-  animation-name: navthree;
+  margin-top: 50px;
+  animation-name: navtwo;
   animation-duration: 3s;
   text-shadow: 3px 3px black;
   color: white;
@@ -231,16 +231,19 @@ h1 span:nth-child(18){
   display: flex;
   width: 400px;
   flex-direction: column;
+  position: absolute;
+  z-index: 10;
+  top: 25%;
 }
 
 .grad-bar4{
-  background: linear-gradient(to right, rgb(0, 0, 255), rgb(191, 0, 255), rgb(255, 0, 64));
-  width: 400px;
+  background: rgb(192, 6, 183);
+  width: 185px;
   height: 40px;
   display: inline-block;
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
-  margin-top: 30px;
+  margin-top: 50px;
   color: white;
   font-family: 'Poiret One', cursive;
   text-align: start;
@@ -272,7 +275,7 @@ h1 span:nth-child(18){
     color:rgba(0,0,0,0);
   }
   100%{
-    width: 100%;
+    width: 300px;
     color: white;
   }
 }
@@ -289,7 +292,7 @@ h1 span:nth-child(18){
     color:rgba(0,0,0,0);
   }
   100%{
-    width: 300px;
+    width: 200px;
     color: white;
   }
 }
@@ -306,19 +309,19 @@ h1 span:nth-child(18){
     color:rgba(0,0,0,0);
   }
   100%{
-    width: 200px;
+    width: 185px;
     color: white;
   }
 }
 
 .grad-bar5{
-  background: linear-gradient(to right, rgb(0, 0, 255), rgb(191, 0, 255), rgb(255, 0, 64));
-  width: 300px;
+  background: rgb(192, 6, 183);
+  width: 200px;
   height: 40px;
   display: inline-block;
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
-  margin-top: 30px;
+  margin-top: 50px;
   color: white;
   font-family: 'Poiret One', cursive;
   text-align: start;
@@ -330,13 +333,13 @@ h1 span:nth-child(18){
 }
 
 .grad-bar6{
-  background: linear-gradient(to right, rgb(0, 0, 255), rgb(191, 0, 255), rgb(255, 0, 64));
-  width: 200px;
+  background: rgb(192, 6, 183);
+  width: 300px;
   height: 40px;
   display: inline-block;
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
-  margin-top: 30px;
+  margin-top: 50px;
   color: white;
   font-family: 'Poiret One', cursive;
   text-align: start;
@@ -348,23 +351,23 @@ h1 span:nth-child(18){
 }
 
 .grad-container2{
-  position: absolute;
-  display: flex;
-  width: 400px;
-  flex-direction: column;
+  width: 100px;
   right: 0;
-  align-items: flex-end;
-  bottom: 4%;
+  height: 600px;
+  bottom: 0;
+  position: absolute;
 }
 
 .scrolldown{
   transform: rotate(90deg);
-  transform-origin: bottom left;
-  margin-left: 10px;
+  /* transform-origin: bottom right; */
   color: white;
-  bottom: 0;
   font-size: 1.5rem;
   font-weight: lighter;
+  bottom: 27%;
+  position: absolute;
+  right: -10%;
+  margin: 0;
 }
 
 .scrolldown:after {
@@ -372,16 +375,59 @@ h1 span:nth-child(18){
   display: inline-block;
   height: 0.5em;
   vertical-align: bottom;
-  width: 25%;
+  width: 300px;
   margin-right: -100%;
   margin-left: 10px;
   border-top: 1px solid white;
 }
 
-.scrollcontain{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 20vh;
+.scrolldown-cont{
+  justify-self: flex-end;
+  bottom: 0;
 }
 
+.social{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: 0;
+  right: 0;
+  margin-right: 10px;
+  margin-top: 20px;
+}
+
+.github{
+  background-image: url('../src/images/github.png');
+  background-position: center;
+  width: 50px;
+  height: 50px;
+  margin-top: 20px;
+}
+
+.github:hover{
+  background-image: url('../src/images/githubhover.png');
+}
+
+.linkedin{
+  background-image: url('../src/images/linkedin.png');
+  background-position: center;
+  width: 50px;
+  height: 50px;
+  margin-top: 20px;
+}
+
+.linkedin:hover{
+  background-image: url('../src/images/linkedinhover.png');
+}
+
+.insta{
+  background-image: url('../src/images/instagram.png');
+  background-position: center;
+  width: 50px;
+  height: 50px;
+  margin-top: 20px;
+}
+
+.insta:hover{
+  background-image: url('../src/images/instagramhover.png');
+}

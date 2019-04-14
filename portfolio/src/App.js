@@ -6,6 +6,9 @@ import ReactFullpage from '@fullpage/react-fullpage';
 import wall from './images/smkwall.png';
 import styled from 'styled-components';
 import propic from './images/profile.png';
+import insta from './images/instagram.png';
+import linkedin from './images/linkedin.png';
+import github from './images/github.png';
 
 class App extends Component {
   state = {
@@ -53,7 +56,7 @@ class App extends Component {
                     />
                   ) : null}
                   {this.state.ended ? (
-                    <div className="scrollcontain">
+                    <div>
                       <div className="grad-container1">
                         <div className="grad-bar2">Contact</div>
                         <div className="grad-bar3">Skills</div>
@@ -64,9 +67,9 @@ class App extends Component {
                       <div className="grad-bar5"> Projects </div>
                       <div className="grad-bar6"> Blog </div>
                       </div>
-                      <div>
+                      {/* <div>
                         <h5 className="scrolldown"> Scroll Down</h5>
-                      </div>
+                      </div> */}
                     </div>
                   ) : null}
                   <h1>
@@ -93,6 +96,20 @@ class App extends Component {
                   (<h2>Full Stack Web Developer</h2>
                     )  : null
                 }
+                {this.state.ended ? 
+                (
+                  <div className="social">
+                    <a href="https://github.com/Austinlp4" target="_blank"><div className='github'></div></a>
+                    <div className='linkedin'></div>
+                    <div className='insta'></div>
+                  </div>
+                ): null  
+              }
+                {this.state.ended ? 
+                (
+                  <h5 className="scrolldown"> Scroll Down</h5>
+                ): null  
+              }
                   {/* {this.state.ended ? (
                     <div className="grad-container2">
                       <div className="grad-bar4">
