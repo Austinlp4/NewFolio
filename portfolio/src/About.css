@@ -9,11 +9,22 @@
 .imgcont{
     align-self: center;
     border-radius: 8px;
+    margin-right: 100px;
+    position: absolute;
+    left: -100px;
+    animation: image1 3s forwards;
+    
 }
 
 img{
     border-radius: 8px;
     width: 600px;
+}
+
+@keyframes image1 {
+    100%{
+        left: 0;
+    }
 }
 
 .aboutheader{
@@ -25,23 +36,151 @@ img{
     max-width: 600px;
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     flex-direction: column;
+    line-height: 1.5;
+    font-size: 1.4rem;
+    margin: 0 auto;
 }
 
 .barcont{
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 100vh;
+    height: 700px;
     justify-content: center;
     z-index: 5;
+    background-color: rgb(30,30,30);
+    border-radius: 10px;
+    align-self: center;
+    box-shadow: 10px 0 10px -5px rgb(28, 140, 177);
+    position: absolute;
+    left: 0;
 }
 
 .bar1, .bar2, .bar3{
-    height: 200px;
+    height: 150px;
     width: 10px;
     border-radius: 5px;
     background-color: blue;
     margin: 20px 5px;
 }
+
+.grad-container3{
+    display: flex;
+    width: 400px;
+    flex-direction: column;
+    position: absolute;
+    top: 10%;
+    right: 0;
+}
+
+.grad-container3 a {
+    text-decoration: none;
+    color: white;
+    animation-name: navone-a;
+    animation-duration: 3s;
+}
+
+.grad-bar-a1, .grad-bar-a5 {
+  background: rgb(192, 6, 183);
+  width: 300px;
+  height: 40px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  margin-top: 50px;
+  animation-name: navone-a;
+  animation-duration: 3s;
+  color: white;
+  font-family: 'Poiret One', cursive;
+  text-align: end;
+  padding-right: 20px;
+  font-size: 2rem;
+  align-self: flex-end;
+  right: 0;
+}
+
+.grad-bar-a2, .grad-bar-a4 {
+    background: rgb(192, 6, 183);
+    width: 200px;
+    height: 40px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-top: 50px;
+    animation-name: navtwo-a;
+    animation-duration: 3s;
+    color: white;
+    font-family: 'Poiret One', cursive;
+    text-align: end;
+    padding-right: 20px;
+    font-size: 2rem;
+    align-self: flex-end;
+  }
+
+.grad-bar-a3 {
+    background: rgb(192, 6, 183);
+    width: 185px;
+    height: 40px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-top: 50px;
+    animation-name: navthree-a;
+    animation-duration: 3s;
+    color: white;
+    font-family: 'Poiret One', cursive;
+    text-align: end;
+    padding-right: 20px;
+    font-size: 2rem;
+    align-self: flex-end;
+}
+
+@keyframes navone-a{
+    0%{
+      width: 0%;
+      color: rgba(0,0,0,0)
+    }
+    50%{
+      color:rgba(0,0,0,0)
+    }
+    75%{
+      color:rgba(0,0,0,0);
+    }
+    100%{
+      width: 300px;
+      color: white;
+    }
+  }
+
+@keyframes navtwo-a{
+    0%{
+      width: 0px;
+      color: rgba(0,0,0,0)
+    }
+    50%{
+      color:rgba(0,0,0,0)
+    }
+    75%{
+      color:rgba(0,0,0,0);
+    }
+    100%{
+      width: 200px;
+      color: white;
+    }
+  }
+  
+  @keyframes navthree-a{
+    0%{
+      width: 0px;
+      color: rgba(0,0,0,0)
+    }
+    50%{
+      color:rgba(0,0,0,0)
+    }
+    75%{
+      color:rgba(0,0,0,0);
+    }
+    100%{
+      width: 185px;
+      color: white;
+    }
+  }

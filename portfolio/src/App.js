@@ -3,16 +3,13 @@ import './App.css';
 import './About.css';
 import smoke from './video/smoke.mp4';
 import ReactFullpage from '@fullpage/react-fullpage';
-import wall from './images/smkwall.png';
-import styled from 'styled-components';
 import propic from './images/profile.png';
-import insta from './images/instagram.png';
-import linkedin from './images/linkedin.png';
-import github from './images/github.png';
+
 
 class App extends Component {
   state = {
     ended: false,
+    about: false
   };
 
   end = id => {
@@ -30,6 +27,11 @@ class App extends Component {
   }
   afterLoad(origin, destination, direction) {
     console.log('After load: ' + destination.index);
+    if(destination.index === 1){
+      this.setState({
+        about: true
+      })
+    }
   }
 
   render() {
@@ -129,9 +131,15 @@ class App extends Component {
                     <div className='bar2'></div>
                     <div className='bar3'></div>
                   </div>
-                  <div className="imgcont">
-                    <img src={propic} alt="profile" />
-                  </div>
+                  {this.state.about ?
+                  (
+                    <div className="imgcont">
+                      <img src={propic} alt="profile" />
+                    </div>
+                  )
+                 : null
+                }
+                  
                   <div className="contentcont">
                     <h4 className='aboutheader'>About Me</h4>
                     <p className='aboutcont'>
@@ -145,14 +153,46 @@ class App extends Component {
                       not enough time in a day. Currently pursuing knowledge
                       related to UI/UX design, Vue.js, and MongoDB.
                     </p>
+                    <div>
                     <h4 className='location'>Location:</h4>
                     <h5 className='faytown'>Fayetteville, AR</h5>
+                    </div>
+                  </div>
+                  {this.state.about ? (<div>
+                      <div className="grad-container3">
+                        <div className="grad-bar-a1">Contact</div>
+                        <div className="grad-bar-a2">Skills</div>
+                        <div className="grad-bar-a3">
+                        {' '}
+                        <a href="#About">About Me</a>
+                      </div>
+                      <div className="grad-bar-a4"> Projects </div>
+                      <div className="grad-bar-a5"> Blog </div>
+                      </div>
+                      {/* <div>
+                        <h5 className="scrolldown"> Scroll Down</h5>
+                      </div> */}
+                  </div>) : null}
+                </div>
+              </div>
+              <div className="section">
+                  <div className="skills">
+                    
                   </div>
                 </div>
-                <div className="section">
-                  <div>
-                    <h2>Skills</h2>
-                  </div>
+              <div className="section">
+                <div className="projects">
+                    
+                </div>
+              </div>
+              <div className="section">
+                <div className="blog">
+                    
+                </div>
+              </div>
+              <div className="section">
+                <div className="contact">
+                    
                 </div>
               </div>
             </div>
