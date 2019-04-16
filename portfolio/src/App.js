@@ -4,6 +4,16 @@ import './About.css';
 import smoke from './video/smoke.mp4';
 import ReactFullpage from '@fullpage/react-fullpage';
 import propic from './images/profile.png';
+import js from './images/grad-js.png';
+import react from './images/grad-react.png';
+import redux from './images/grad-redux.png';
+import node from './images/grad-node.png';
+import git from './images/grad-git.png';
+import c from './images/grad-c.png';
+import jest from './images/grad-jest.png';
+import python from './images/grad-python.png';
+import photoshop from './images/grad-c.png';
+import xd from './images/grad-jest.png';
 
 
 class App extends Component {
@@ -177,7 +187,24 @@ class App extends Component {
               </div>
               <div className="section">
                   <div className="skills">
-                    
+                  <div className="img-cont">
+                    <div className="img-div-1">
+                      <img src={js} alt=""/>
+                      <img src={react} alt=""/>
+                      <img src={redux} alt=""/>
+                      <img src={node} alt=""/>
+                    </div>
+                    <div className="img-div-2">
+                      <img src={git} alt=""/>
+                      <img src={c} alt=""/>
+                      <img src={python} alt=""/>
+                      <img src={jest} alt=""/>
+                    </div>
+                    <div className="img-div-3">
+                      <img src={photoshop} alt=""/>
+                      <img src={xd} alt=""/>
+                    </div>
+                    </div>
                   </div>
                 </div>
               <div className="section">
