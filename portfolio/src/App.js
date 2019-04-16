@@ -19,7 +19,8 @@ import xd from './images/grad-jest.png';
 class App extends Component {
   state = {
     ended: false,
-    about: false
+    about: false,
+    skills: false
   };
 
   end = id => {
@@ -40,6 +41,11 @@ class App extends Component {
     if(destination.index === 1){
       this.setState({
         about: true
+      })
+    }
+    if(destination.index === 2){
+      this.setState({
+        skills: true
       })
     }
   }
@@ -179,9 +185,6 @@ class App extends Component {
                       <div className="grad-bar-a4"> Projects </div>
                       <div className="grad-bar-a5"> Blog </div>
                       </div>
-                      {/* <div>
-                        <h5 className="scrolldown"> Scroll Down</h5>
-                      </div> */}
                   </div>) : null}
                 </div>
               </div>
@@ -205,6 +208,18 @@ class App extends Component {
                       <img src={xd} alt=""/>
                     </div>
                     </div>
+                    {this.state.skills ? (<div>
+                      <div className="grad-container4">
+                        <div className="grad-bar-s1">Contact</div>
+                        <div className="grad-bar-s2">Skills</div>
+                        <div className="grad-bar-s3">
+                        {' '}
+                        <a href="#About">About Me</a>
+                      </div>
+                      <div className="grad-bar-s4"> Projects </div>
+                      <div className="grad-bar-s5"> Blog </div>
+                      </div>
+                  </div>) : null}
                   </div>
                 </div>
               <div className="section">

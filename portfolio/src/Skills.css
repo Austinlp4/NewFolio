@@ -1,0 +1,126 @@
+.skills{
+    display: flex;
+    height: 100vh;
+    align-content: center;
+    color: white;
+    font-family: 'Poiret One', cursive;
+}
+
+.grad-container4{
+    display: flex;
+    width: 400px;
+    flex-direction: column;
+    position: absolute;
+    top: 10%;
+    right: 0;
+}
+
+.grad-container4 a {
+    text-decoration: none;
+    color: white;
+    animation-name: navone-s;
+    animation-duration: 3s;
+}
+
+.grad-bar-a1, .grad-bar-a5 {
+  background: rgb(192, 6, 183);
+  width: 300px;
+  height: 40px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  margin-top: 50px;
+  animation-name: navone-s;
+  animation-duration: 3s;
+  color: white;
+  font-family: 'Poiret One', cursive;
+  text-align: end;
+  padding-right: 20px;
+  font-size: 2rem;
+  align-self: flex-end;
+  right: 0;
+}
+
+.grad-bar-a2, .grad-bar-a4 {
+    background: rgb(192, 6, 183);
+    width: 200px;
+    height: 40px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-top: 50px;
+    animation-name: navtwo-s;
+    animation-duration: 3s;
+    color: white;
+    font-family: 'Poiret One', cursive;
+    text-align: end;
+    padding-right: 20px;
+    font-size: 2rem;
+    align-self: flex-end;
+  }
+
+.grad-bar-a3 {
+    background: rgb(192, 6, 183);
+    width: 185px;
+    height: 40px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-top: 50px;
+    animation-name: navthree-s;
+    animation-duration: 3s;
+    color: white;
+    font-family: 'Poiret One', cursive;
+    text-align: end;
+    padding-right: 20px;
+    font-size: 2rem;
+    align-self: flex-end;
+}
+
+@keyframes navone-s{
+    0%{
+      width: 0%;
+      color: rgba(0,0,0,0)
+    }
+    50%{
+      color:rgba(0,0,0,0)
+    }
+    75%{
+      color:rgba(0,0,0,0);
+    }
+    100%{
+      width: 300px;
+      color: white;
+    }
+  }
+
+@keyframes navtwo-s{
+    0%{
+      width: 0px;
+      color: rgba(0,0,0,0)
+    }
+    50%{
+      color:rgba(0,0,0,0)
+    }
+    75%{
+      color:rgba(0,0,0,0);
+    }
+    100%{
+      width: 200px;
+      color: white;
+    }
+  }
+  
+  @keyframes navthree-s{
+    0%{
+      width: 0px;
+      color: rgba(0,0,0,0)
+    }
+    50%{
+      color:rgba(0,0,0,0)
+    }
+    75%{
+      color:rgba(0,0,0,0);
+    }
+    100%{
+      width: 185px;
+      color: white;
+    }
+  }
