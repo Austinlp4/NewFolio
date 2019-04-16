@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import './About.css';
+import './Skills.css';
 import smoke from './video/smoke.mp4';
 import ReactFullpage from '@fullpage/react-fullpage';
 import propic from './images/profile.png';
@@ -12,8 +13,8 @@ import git from './images/grad-git.png';
 import c from './images/grad-c.png';
 import jest from './images/grad-jest.png';
 import python from './images/grad-python.png';
-import photoshop from './images/grad-c.png';
-import xd from './images/grad-jest.png';
+import photoshop from './images/grad-photoshop.png';
+import xd from './images/grad-xd.png';
 
 
 class App extends Component {
@@ -190,6 +191,11 @@ class App extends Component {
               </div>
               <div className="section">
                   <div className="skills">
+                  <div className="barcont">
+                    <div className='bar1'></div>
+                    <div className='bar2'></div>
+                    <div className='bar3'></div>
+                  </div>
                   <div className="img-cont">
                     <div className="img-div-1">
                       <img src={js} alt=""/>

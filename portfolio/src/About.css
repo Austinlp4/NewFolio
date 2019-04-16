@@ -30,6 +30,7 @@ img{
 .aboutheader{
     font-size: 3rem;
     color: white;
+    font-weight: lighter;
 }
 
 .contentcont{
@@ -71,7 +72,7 @@ img{
     width: 400px;
     flex-direction: column;
     position: absolute;
-    top: 10%;
+    top: 20%;
     right: 0;
 }
 

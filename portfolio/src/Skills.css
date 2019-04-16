@@ -11,7 +11,7 @@
     width: 400px;
     flex-direction: column;
     position: absolute;
-    top: 10%;
+    top: 20%;
     right: 0;
 }
 
@@ -22,7 +22,7 @@
     animation-duration: 3s;
 }
 
-.grad-bar-a1, .grad-bar-a5 {
+.grad-bar-s1, .grad-bar-s5 {
   background: rgb(192, 6, 183);
   width: 300px;
   height: 40px;
@@ -40,7 +40,7 @@
   right: 0;
 }
 
-.grad-bar-a2, .grad-bar-a4 {
+.grad-bar-s2, .grad-bar-s4 {
     background: rgb(192, 6, 183);
     width: 200px;
     height: 40px;
@@ -57,7 +57,7 @@
     align-self: flex-end;
   }
 
-.grad-bar-a3 {
+.grad-bar-s3 {
     background: rgb(192, 6, 183);
     width: 185px;
     height: 40px;
@@ -125,4 +125,45 @@
     }
   }
 
+.img-cont{
+    width: 100%;
+    max-width: 1000px;
+    margin: 100px auto;
+    padding-right: 20%;
+}
 
+
+.img-cont img {
+    width: 150px;
+}
+
+.img-div-1, .img-div-2, .img-div-3 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 150px;
+    margin-top: 50px;
+}
+
+/* .barcont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 700px;
+    justify-content: center;
+    z-index: 5;
+    background-color: rgb(30,30,30);
+    border-radius: 10px;
+    align-self: center;
+    box-shadow: 10px 0 10px -5px rgb(28, 140, 177);
+    position: absolute;
+    left: 0;
+}
+
+.bar1, .bar2, .bar3{
+    height: 150px;
+    width: 10px;
+    border-radius: 5px;
+    background-color: blue;
+    margin: 20px 5px;
+} */
