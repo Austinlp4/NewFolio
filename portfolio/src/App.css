@@ -1,5 +1,5 @@
 .App{
-  background: #000;
+  background: rgb(10,10,10);
 }
 section {
   height: 100vh;
@@ -26,6 +26,10 @@ section::before{
   background-image: url('../src/images/smkwall.png');
   animation-name: opaque;
   animation-delay: 7s ease-in;
+}
+
+.section{
+  background-color: rgb(15,15,15);
 }
 
 video{
