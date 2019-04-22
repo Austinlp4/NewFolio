@@ -85,12 +85,12 @@ img{
 
 .grad-bar-a1, .grad-bar-a5 {
   background: rgb(192, 6, 183);
-  width: 300px;
+  width: 185px;
   height: 40px;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
   margin-top: 50px;
-  animation-name: navone-a;
+  animation-name: navthree-a;
   animation-duration: 3s;
   color: white;
   font-family: 'Poiret One', cursive;
@@ -103,12 +103,12 @@ img{
 
 .grad-bar-a2, .grad-bar-a4 {
     background: rgb(192, 6, 183);
-    width: 200px;
+    width: 185px;
     height: 40px;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
     margin-top: 50px;
-    animation-name: navtwo-a;
+    animation-name: navthree-a;
     animation-duration: 3s;
     color: white;
     font-family: 'Poiret One', cursive;
@@ -120,12 +120,12 @@ img{
 
 .grad-bar-a3 {
     background: rgb(192, 6, 183);
-    width: 185px;
+    width: 300px;
     height: 40px;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
     margin-top: 50px;
-    animation-name: navthree-a;
+    animation-name: navone-a;
     animation-duration: 3s;
     color: white;
     font-family: 'Poiret One', cursive;

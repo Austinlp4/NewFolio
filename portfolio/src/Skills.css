@@ -22,7 +22,7 @@
     animation-duration: 3s;
 }
 
-.grad-bar-s1, .grad-bar-s5 {
+.grad-bar-s2 {
   background: rgb(192, 6, 183);
   width: 300px;
   height: 40px;
@@ -40,7 +40,7 @@
   right: 0;
 }
 
-.grad-bar-s2, .grad-bar-s4 {
+/* .grad-bar-s2, .grad-bar-s4 {
     background: rgb(192, 6, 183);
     width: 200px;
     height: 40px;
@@ -55,9 +55,9 @@
     padding-right: 20px;
     font-size: 2rem;
     align-self: flex-end;
-  }
+  } */
 
-.grad-bar-s3 {
+.grad-bar-s3, .grad-bar-s1, .grad-bar-s4, .grad-bar-s5 {
     background: rgb(192, 6, 183);
     width: 185px;
     height: 40px;

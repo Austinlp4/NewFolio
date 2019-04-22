@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import './About.css';
 import './Skills.css';
+import './Projects.css';
 import smoke from './video/smoke.mp4';
 import ReactFullpage from '@fullpage/react-fullpage';
 import propic from './images/profile.png';
@@ -15,13 +16,16 @@ import jest from './images/grad-jest.png';
 import python from './images/grad-python.png';
 import photoshop from './images/grad-photoshop.png';
 import xd from './images/grad-xd.png';
+import Mappa from './images/mappajob-project.PNG';
+import Palette from './images/palette-project.PNG';
 
 
 class App extends Component {
   state = {
     ended: false,
     about: false,
-    skills: false
+    skills: false,
+    projects: false
   };
 
   end = id => {
@@ -41,12 +45,22 @@ class App extends Component {
     console.log('After load: ' + destination.index);
     if(destination.index === 1){
       this.setState({
-        about: true
+        about: true,
+        skills: false,
+        projects: false
       })
     }
     if(destination.index === 2){
       this.setState({
-        skills: true
+        skills: true,
+        about: false
+      })
+    }
+    if(destination.index === 3){
+      this.setState({
+        skills: false,
+        about: false,
+        projects: true
       })
     }
   }
@@ -230,7 +244,33 @@ class App extends Component {
                 </div>
               <div className="section">
                 <div className="projects">
-                    
+                    <div className='project-container'>
+                      <div className='palette'>
+                        <div>
+                          <img src={Palette} alt=""/>
+                        </div>
+                        <div>
+                          Go to Site: <a href="https://www.pallet-app.com/" target="_blank">https://www.pallet-app.com/</a>
+                        </div>
+                      </div>
+                      <div className='mappajob'>
+                        <div>
+                          <img src={Mappa} alt=""/>
+                        </div>
+                      </div>
+                    </div>
+                    {this.state.projects ? (<div>
+                      <div className="grad-container4">
+                        <div className="grad-bar-s1">Contact</div>
+                        <div className="grad-bar-s2">Skills</div>
+                        <div className="grad-bar-s3">
+                        {' '}
+                        <a href="#About">About Me</a>
+                      </div>
+                      <div className="grad-bar-s4"> Projects </div>
+                      <div className="grad-bar-s5"> Blog </div>
+                      </div>
+                  </div>) : null}
                 </div>
               </div>
               <div className="section">

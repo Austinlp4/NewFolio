@@ -1,0 +1,23 @@
+
+.project-container{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+}
+
+.palette, .mappajob{
+    max-width: 500px;
+    background-color: rgb(30,30,30);
+    max-height: 450px;
+    height: 100%;
+    color: white;
+    width: 100%;
+}
+
+.palette img {
+    width: 500px;
+}
+
+.mappajob img {
+    width: 500px;
+}
