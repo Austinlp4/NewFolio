@@ -21,6 +21,12 @@ img{
     width: 600px;
 }
 
+@media (max-width: 1499px){
+  .imgcont img{
+    opacity: .4;
+  }
+}
+
 @keyframes image1 {
     100%{
         left: 0;
@@ -44,6 +50,12 @@ img{
     margin: 0 auto;
 }
 
+@media(max-width: 1499px){
+  .aboutheader, .contentcont{
+    z-index: 5;
+  }
+}
+
 .barcont{
     display: flex;
     flex-direction: column;
@@ -57,6 +69,12 @@ img{
     box-shadow: 10px 0 10px -5px rgb(28, 140, 177);
     position: absolute;
     left: 0;
+}
+
+@media (max-width: 1499px){
+  .barcont{
+    display: none;
+  }
 }
 
 .bar1, .bar2, .bar3{
@@ -133,6 +151,12 @@ img{
     padding-right: 20px;
     font-size: 2rem;
     align-self: flex-end;
+}
+
+@media (max-width: 1499px){
+  .grad-bar-a3{
+    width: 185px;
+  }
 }
 
 @keyframes navone-a{

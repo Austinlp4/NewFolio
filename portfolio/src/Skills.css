@@ -40,6 +40,13 @@
   right: 0;
 }
 
+@media (max-width: 1499px){
+  .grad-bar-s2{
+    width: 185px;
+
+  }
+}
+
 /* .grad-bar-s2, .grad-bar-s4 {
     background: rgb(192, 6, 183);
     width: 200px;
@@ -137,12 +144,30 @@
     width: 150px;
 }
 
+@media (max-width: 1499px){
+  .img-cont{
+    padding-left: 10%;
+    margin-top: 200px;
+  }
+  .img-cont img{
+    width: 100px;
+    height: 100px;
+  }
+}
+
 .img-div-1, .img-div-2, .img-div-3 {
     width: 100%;
     display: flex;
     justify-content: space-between;
     height: 150px;
     margin-top: 50px;
+}
+
+@media (max-width: 1499px){
+  .img-div-1, .img-div-2, .img-div-3{
+    width: 80%;
+    height: 100px;
+  }
 }
 
 /* .barcont{
