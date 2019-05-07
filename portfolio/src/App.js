@@ -68,7 +68,7 @@ class App extends Component {
   render() {
     return (
       <ReactFullpage
-        anchors={['Home', 'About', 'Skills', 'Projects', 'Blog', 'Contact']}
+        anchors={['Home', 'About', 'Skills', 'Projects1','Projects2', 'Blog', 'Contact']}
         scrollOverflow={true}
         onLeave={this.onLeave.bind(this)}
         afterLoad={this.afterLoad.bind(this)}
@@ -253,6 +253,24 @@ class App extends Component {
                           Go to Site: <a href="https://www.pallet-app.com/" target="_blank">https://www.pallet-app.com/</a>
                         </div>
                       </div>
+                    </div>
+                    {this.state.projects ? (<div>
+                      <div className="grad-container4">
+                        <div className="grad-bar-s1">Contact</div>
+                        <div className="grad-bar-s2">Skills</div>
+                        <div className="grad-bar-s3">
+                        {' '}
+                        <a href="#About">About Me</a>
+                      </div>
+                      <div className="grad-bar-s4"> Projects </div>
+                      <div className="grad-bar-s5"> Blog </div>
+                      </div>
+                  </div>) : null}
+                </div>
+              </div>
+              <div className="section">
+                <div className="projects">
+                    <div className='project-container'>
                       <div className='mappajob'>
                         <div>
                           <img src={Mappa} alt=""/>
