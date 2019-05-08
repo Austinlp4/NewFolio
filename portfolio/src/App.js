@@ -248,9 +248,13 @@ class App extends Component {
                       <div className='palette'>
                         <div>
                           <img src={Palette} alt=""/>
-                        </div>
-                        <div>
-                          Go to Site: <a href="https://www.pallet-app.com/" target="_blank">https://www.pallet-app.com/</a>
+                          Go to Site: <a href="http://www.pallet-app.com">http://www.pallet-app.com</a>
+                          <div>
+                            Stack: React, Redux, Firebase
+                          </div>
+                          <div className='overlay'>
+                            01
+                          </div>
                         </div>
                       </div>
                     </div>
