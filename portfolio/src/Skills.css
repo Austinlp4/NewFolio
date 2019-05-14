@@ -38,6 +38,7 @@
   font-size: 2rem;
   align-self: flex-end;
   right: 0;
+  cursor: pointer;
 }
 
 @media (max-width: 1499px){
@@ -79,6 +80,7 @@
     padding-right: 20px;
     font-size: 2rem;
     align-self: flex-end;
+    cursor: pointer;
 }
 
 @keyframes navone-s{
