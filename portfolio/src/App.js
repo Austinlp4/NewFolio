@@ -143,16 +143,7 @@ class App extends Component {
                   <h5 className="scrolldown"> Scroll Down</h5>
                 ): null  
               }
-                  {/* {this.state.ended ? (
-                    <div className="grad-container2">
-                      <div className="grad-bar4">
-                        {' '}
-                        <a href="#About">About Me</a>
-                      </div>
-                      <div className="grad-bar5"> Projects </div>
-                      <div className="grad-bar6"> Blog </div>
-                    </div>
-                  ) : null} */}
+                  
                 </section>
               </div>
               <div className="section">
@@ -212,20 +203,50 @@ class App extends Component {
                   </div>
                   <div className="img-cont">
                     <div className="img-div-1">
-                      <div><img src={js} alt=""/></div>
-                      <div><img src={react} alt=""/></div>
-                      <div><img src={redux} alt=""/></div>
-                      <div><img src={node} alt=""/></div>
+                      <div>
+                        <img src={js} alt=""/>
+                        <h4>JavaScript</h4>
+                      </div>
+                      <div>
+                        <img src={react} alt=""/>
+                        <h4>React</h4>
+                      </div>
+                      <div>
+                        <img src={redux} alt=""/>
+                        <h4>Redux</h4>
+                      </div>
+                      <div>
+                        <img src={node} alt=""/>j
+                        <h4>Node</h4>
+                      </div>
                     </div>
                     <div className="img-div-2">
-                      <div><img src={git} alt=""/></div>
-                      <div><img src={c} alt=""/></div>
-                      <div><img src={python} alt=""/></div>
-                      <div><img src={jest} alt=""/></div>
+                      <div>
+                        <img src={git} alt=""/>
+                        <h4>Git</h4>
+                      </div>
+                      <div>
+                        <img src={c} alt=""/>
+                        <h4>C</h4>
+                      </div>
+                      <div>
+                        <img src={python} alt=""/>
+                        <h4>Python</h4>
+                      </div>
+                      <div>
+                        <img src={jest} alt=""/>
+                        <h4>Jest</h4>
+                      </div>
                     </div>
                     <div className="img-div-3">
-                      <div><img src={photoshop} alt=""/></div>
-                      <div><img src={xd} alt=""/></div>
+                      <div>
+                        <img src={photoshop} alt=""/>
+                        <h4>Photoshop</h4>
+                      </div>
+                      <div>
+                        <img src={xd} alt=""/>
+                        <h4>Adobe Xd</h4>
+                      </div>
                     </div>
                     </div>
                     {this.state.skills ? (<div>
