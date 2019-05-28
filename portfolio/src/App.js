@@ -212,20 +212,20 @@ class App extends Component {
                   </div>
                   <div className="img-cont">
                     <div className="img-div-1">
-                      <img src={js} alt=""/>
-                      <img src={react} alt=""/>
-                      <img src={redux} alt=""/>
-                      <img src={node} alt=""/>
+                      <div><img src={js} alt=""/></div>
+                      <div><img src={react} alt=""/></div>
+                      <div><img src={redux} alt=""/></div>
+                      <div><img src={node} alt=""/></div>
                     </div>
                     <div className="img-div-2">
-                      <img src={git} alt=""/>
-                      <img src={c} alt=""/>
-                      <img src={python} alt=""/>
-                      <img src={jest} alt=""/>
+                      <div><img src={git} alt=""/></div>
+                      <div><img src={c} alt=""/></div>
+                      <div><img src={python} alt=""/></div>
+                      <div><img src={jest} alt=""/></div>
                     </div>
                     <div className="img-div-3">
-                      <img src={photoshop} alt=""/>
-                      <img src={xd} alt=""/>
+                      <div><img src={photoshop} alt=""/></div>
+                      <div><img src={xd} alt=""/></div>
                     </div>
                     </div>
                     {this.state.skills ? (<div>
