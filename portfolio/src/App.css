@@ -200,6 +200,14 @@ h1 span:nth-child(18){
   font-size: 2rem;
 }
 
+.grad-bar1 a {
+  text-decoration: none;
+  color: white;
+  animation-name: navone;
+  animation-duration: 3s;
+  
+}
+
 .grad-bar2{
   background: rgb(192, 6, 183);
   width: 300px;
@@ -215,6 +223,14 @@ h1 span:nth-child(18){
   text-align: start;
   padding-left: 20px;
   font-size: 2rem;
+}
+
+.grad-bar2 a {
+  text-decoration: none;
+  color: white;
+  animation-name: navone;
+  animation-duration: 3s;
+  
 }
 
 .grad-bar3{
@@ -233,6 +249,15 @@ h1 span:nth-child(18){
   padding-left: 20px;
   font-size: 2rem;
 }
+
+.grad-bar3 a {
+  text-decoration: none;
+  color: white;
+  animation-name: navone;
+  animation-duration: 3s;
+  
+}
+
 
 .grad-container1{
   display: flex;
@@ -347,6 +372,14 @@ h1 span:nth-child(18){
  
 }
 
+.grad-bar5 a {
+  text-decoration: none;
+  color: white;
+  animation-name: navone;
+  animation-duration: 3s;
+  
+}
+
 .grad-bar6{
   background: rgb(192, 6, 183);
   width: 300px;
@@ -360,6 +393,14 @@ h1 span:nth-child(18){
   text-align: start;
   padding-left: 20px;
   font-size: 2rem;
+  animation-name: navone;
+  animation-duration: 3s;
+  
+}
+
+.grad-bar6 a {
+  text-decoration: none;
+  color: white;
   animation-name: navone;
   animation-duration: 3s;
   

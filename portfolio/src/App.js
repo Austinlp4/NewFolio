@@ -30,8 +30,6 @@ class App extends Component {
 
   end = id => {
     setTimeout(() => {
-      // let smoke = document.getElementById('smoke');
-      // smoke.remove();
       this.setState({
         ended: true,
       });
@@ -91,18 +89,27 @@ class App extends Component {
                   {this.state.ended ? (
                     <div>
                       <div className="grad-container1">
-                        <div className="grad-bar2">Contact</div>
-                        <div className="grad-bar3">Skills</div>
+                        <div className="grad-bar2">
+                          {' '}
+                          <a href="#Contact">Contact</a>
+                        </div>
+                        <div className="grad-bar3">
+                          {' '}
+                          <a href="#Skills">Skills</a>
+                        </div>
                         <div className="grad-bar4">
                         {' '}
                         <a href="#About">About Me</a>
                       </div>
-                      <div className="grad-bar5"> Projects </div>
-                      <div className="grad-bar6"> Blog </div>
+                      <div className="grad-bar5">
+                        {' '}
+                        <a href="#Projects">Projects</a>
                       </div>
-                      {/* <div>
-                        <h5 className="scrolldown"> Scroll Down</h5>
-                      </div> */}
+                      <div className="grad-bar6">
+                        {' '}
+                        <a href="#Blog">Blog</a>
+                      </div>
+                      </div>
                     </div>
                   ) : null}
                   <h1>
