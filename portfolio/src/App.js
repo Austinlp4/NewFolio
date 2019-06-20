@@ -18,6 +18,7 @@ import photoshop from './images/grad-photoshop.png';
 import xd from './images/grad-xd.png';
 import Mappa from './images/mappajob-project.PNG';
 import Palette from './images/palette-project.PNG';
+import ReactContactForm from 'react-mail-form';
 
 
 class App extends Component {
@@ -330,7 +331,7 @@ class App extends Component {
               </div>
               <div className="section">
                 <div className="contact">
-                    
+                <ReactContactForm to="apendergrast44@gmail.com" />
                 </div>
               </div>
             </div>
