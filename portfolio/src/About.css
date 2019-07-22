@@ -22,6 +22,15 @@ img{
     width: 100%;
 }
 
+@media (max-width: 1210px){
+  .imgcont {
+    max-width: 400px;
+  }
+  img {
+    max-width: 400px;
+  }
+}
+
 @media (max-width: 1499px){
   .imgcont img{
     opacity: .4;

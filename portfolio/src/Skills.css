@@ -146,10 +146,11 @@
     width: 150px;
 }
 
-@media (max-width: 1499px){
+@media (max-width: 1580px){
   .img-cont{
     padding-left: 10%;
-    margin-top: 200px;
+    margin-top: 50px;
+    max-width: 900px;
   }
   .img-cont img{
     width: 100px;
