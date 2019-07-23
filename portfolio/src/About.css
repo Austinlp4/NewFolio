@@ -13,10 +13,10 @@
     position: absolute;
     left: -100px;
     animation: image1 3s forwards;
-    
+    z-index: 1;
 }
 
-img{
+.propic{
     border-radius: 8px;
     max-width: 600px;
     width: 100%;
@@ -47,6 +47,7 @@ img{
     font-size: 3rem;
     color: white;
     font-weight: lighter;
+    z-index: 3;
 }
 
 .contentcont{
@@ -58,6 +59,7 @@ img{
     line-height: 1.5;
     font-size: 1.4rem;
     margin: 0 auto;
+    z-index: 3;
 }
 
 @media(max-width: 1499px){
@@ -149,8 +151,8 @@ img{
   }
 
 .grad-bar-a3 {
-    background: rgb(192, 6, 183);
-    width: 300px;
+    background: rgb(13, 116, 194);
+    width: 200px;
     height: 40px;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
@@ -184,7 +186,7 @@ img{
       color:rgba(0,0,0,0);
     }
     100%{
-      width: 300px;
+      width: 200px;
       color: white;
     }
   }

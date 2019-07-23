@@ -41,10 +41,10 @@
   cursor: pointer;
 }
 
-@media (max-width: 1499px){
+@media (max-width: 1700px){
   .grad-bar-s2{
     width: 185px;
-
+    background: rgb(13, 116, 194);
   }
 }
 
@@ -95,7 +95,7 @@
       color:rgba(0,0,0,0);
     }
     100%{
-      width: 300px;
+      width: 200px;
       color: white;
     }
   }

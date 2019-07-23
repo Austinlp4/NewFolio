@@ -156,15 +156,15 @@ class App extends Component {
               </div>
               <div className="section">
                 <div className="about">
-                  <div className="barcont">
+                  {/* <div className="barcont">
                     <div className='bar1'></div>
                     <div className='bar2'></div>
                     <div className='bar3'></div>
-                  </div>
+                  </div> */}
                   {this.state.about ?
                   (
                     <div className="imgcont">
-                      <img src={propic} alt="profile" />
+                      <img className="propic" src={propic} alt="profile" />
                     </div>
                   )
                  : null
@@ -204,11 +204,11 @@ class App extends Component {
               </div>
               <div className="section">
                   <div className="skills">
-                  <div className="barcont">
+                  {/* <div className="barcont">
                     <div className='bar1'></div>
                     <div className='bar2'></div>
                     <div className='bar3'></div>
-                  </div>
+                  </div> */}
                   <div className="img-cont">
                     <div className="img-div-1">
                       <div>
@@ -275,28 +275,22 @@ class App extends Component {
                 <div className="projects">
                     <div className='project-container'>
                       <div className='palette'>
-                        <div>
                           <img src={Palette} alt=""/>
-                          Go to Site: <a href="http://www.pallet-app.com">http://www.pallet-app.com</a>
-                          <div>
-                            Stack: React, Redux, Firebase
-                          </div>
-                          <div className='overlay'>
+                          <h4 className='overlay'>
                             01
-                          </div>
-                        </div>
+                          </h4>
                       </div>
                     </div>
                     {this.state.projects ? (<div>
-                      <div className="grad-container4">
-                        <div className="grad-bar-s1">Contact</div>
-                        <div className="grad-bar-s2">Skills</div>
-                        <div className="grad-bar-s3">
+                      <div className="grad-container5">
+                        <div className="grad-bar-p1">Contact</div>
+                        <div className="grad-bar-p2">Skills</div>
+                        <div className="grad-bar-p3">
                         {' '}
                         <a href="#About">About Me</a>
                       </div>
-                      <div className="grad-bar-s4"> Projects </div>
-                      <div className="grad-bar-s5"> Blog </div>
+                      <div className="grad-bar-p4"> Projects </div>
+                      <div className="grad-bar-p5"> Blog </div>
                       </div>
                   </div>) : null}
                 </div>
@@ -304,22 +298,21 @@ class App extends Component {
               <div className="section">
                 <div className="projects">
                     <div className='project-container'>
-                      <div className='mappajob'>
-                        <div>
+                      <div className='mappajob'>                    
                           <img src={Mappa} alt=""/>
-                        </div>
+                          <h4 className="overlay">02</h4>                       
                       </div>
                     </div>
                     {this.state.projects ? (<div>
-                      <div className="grad-container4">
-                        <div className="grad-bar-s1">Contact</div>
-                        <div className="grad-bar-s2">Skills</div>
-                        <div className="grad-bar-s3">
+                      <div className="grad-container5">
+                        <div className="grad-bar-p1">Contact</div>
+                        <div className="grad-bar-p2">Skills</div>
+                        <div className="grad-bar-p3">
                         {' '}
                         <a href="#About">About Me</a>
                       </div>
-                      <div className="grad-bar-s4"> Projects </div>
-                      <div className="grad-bar-s5"> Blog </div>
+                      <div className="grad-bar-p4"> Projects </div>
+                      <div className="grad-bar-p5"> Blog </div>
                       </div>
                   </div>) : null}
                 </div>

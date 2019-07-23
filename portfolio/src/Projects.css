@@ -2,6 +2,8 @@
 .projects{
     display: flex;
     justify-content: center;
+    max-height: 800px;
+    padding-right: 200px;
 }
 
 
@@ -13,19 +15,32 @@
 
 .palette, .mappajob{
     max-width: 1000px;
-    background-color: rgb(40,40,40);
-    max-height: 450px;
+    max-height: 700px;
     height: 100%;
     color: white;
     width: 100%;
+    position: relative;
 }
 
 .palette img {
     width: 1000px;
 }
 
+.palette .overlay, .mappajob .overlay {
+    position: absolute;
+    right:-22%;
+    bottom: -20%;
+    width: 330px;
+    height: 100px;
+    padding-top: 1%;
+    font-size: 5rem;
+    font-weight: 100;
+    font-weight: bolder;
+    color: rgb(192, 6, 183);
+}
+
 .mappajob img {
-    width: 500px;
+    width: 1000px;
 }
 
 @media (max-width: 1499px){
@@ -42,3 +57,115 @@
         width: 600px;
     }
 }
+
+.grad-container5{
+    display: flex;
+    width: 400px;
+    flex-direction: column;
+    position: absolute;
+    top: 20%;
+    right: 0;
+}
+
+.grad-container5 a {
+    text-decoration: none;
+    color: white;
+    animation-name: navone-s;
+    animation-duration: 3s;
+}
+
+.grad-bar-p4 {
+  background: rgb(13, 116, 194);
+  width: 200px;
+  height: 40px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  margin-top: 50px;
+  animation-name: navone-s;
+  animation-duration: 3s;
+  color: white;
+  font-family: 'Poiret One', cursive;
+  text-align: end;
+  padding-right: 20px;
+  font-size: 2rem;
+  align-self: flex-end;
+  right: 0;
+  cursor: pointer;
+}
+
+@media (max-width: 1700px){
+  .grad-bar-s2{
+    width: 185px;
+    background: rgb(13, 116, 194);
+  }
+}
+
+
+.grad-bar-p3, .grad-bar-p1, .grad-bar-p2, .grad-bar-p5 {
+    background: rgb(192, 6, 183);
+    width: 185px;
+    height: 40px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-top: 50px;
+    animation-name: navthree-s;
+    animation-duration: 3s;
+    color: white;
+    font-family: 'Poiret One', cursive;
+    text-align: end;
+    padding-right: 20px;
+    font-size: 2rem;
+    align-self: flex-end;
+    cursor: pointer;
+}
+
+@keyframes navone-s{
+    0%{
+      width: 0%;
+      color: rgba(0,0,0,0)
+    }
+    50%{
+      color:rgba(0,0,0,0)
+    }
+    75%{
+      color:rgba(0,0,0,0);
+    }
+    100%{
+      width: 200px;
+      color: white;
+    }
+  }
+
+@keyframes navtwo-s{
+    0%{
+      width: 0px;
+      color: rgba(0,0,0,0)
+    }
+    50%{
+      color:rgba(0,0,0,0)
+    }
+    75%{
+      color:rgba(0,0,0,0);
+    }
+    100%{
+      width: 200px;
+      color: white;
+    }
+  }
+  
+  @keyframes navthree-s{
+    0%{
+      width: 0px;
+      color: rgba(0,0,0,0)
+    }
+    50%{
+      color:rgba(0,0,0,0)
+    }
+    75%{
+      color:rgba(0,0,0,0);
+    }
+    100%{
+      width: 185px;
+      color: white;
+    }
+  }

@@ -225,6 +225,10 @@ h1 span:nth-child(18){
   font-size: 2rem;
 }
 
+.grad-bar2:hover {
+  background: rgb(13, 116, 194);
+}
+
 .grad-bar2 a {
   text-decoration: none;
   color: white;
@@ -248,6 +252,10 @@ h1 span:nth-child(18){
   text-align: start;
   padding-left: 20px;
   font-size: 2rem;
+}
+
+.grad-bar3:hover {
+  background: rgb(13, 116, 194);
 }
 
 .grad-bar3 a {
@@ -292,6 +300,10 @@ h1 span:nth-child(18){
   animation-name: navthree;
   animation-duration: 3s;
   cursor: pointer;
+}
+
+.grad-bar4:hover {
+  background: rgb(13, 116, 194);
 }
 
 .grad-bar4 a {
@@ -372,6 +384,10 @@ h1 span:nth-child(18){
  
 }
 
+.grad-bar5:hover {
+  background: rgb(13, 116, 194);
+}
+
 .grad-bar5 a {
   text-decoration: none;
   color: white;
@@ -396,6 +412,10 @@ h1 span:nth-child(18){
   animation-name: navone;
   animation-duration: 3s;
   
+}
+
+.grad-bar6:hover {
+  background: rgb(13, 116, 194);
 }
 
 .grad-bar6 a {
