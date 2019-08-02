@@ -271,7 +271,7 @@ class App extends Component {
                   </div>) : null}
                   </div>
                 </div>
-              <div className="section">
+              <div className="section palette-container">
                 <div className="projects">
                     <div className='project-container'>
                       <div className='palette'>
@@ -295,7 +295,7 @@ class App extends Component {
                   </div>) : null}
                 </div>
               </div>
-              <div className="section">
+              <div className="section mappajob-container">
                 <div className="projects">
                     <div className='project-container'>
                       <div className='mappajob'>                    

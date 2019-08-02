@@ -13,6 +13,18 @@
     max-width: 1000px;
 }
 
+.palette-container{
+  background-image: url('./images/palette-background.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.mappajob-container{
+  background-image: url('./images/mappajob-background.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
 .palette, .mappajob{
     max-width: 1000px;
     max-height: 700px;
@@ -28,15 +40,15 @@
 
 .palette .overlay, .mappajob .overlay {
     position: absolute;
-    right:-22%;
-    bottom: -20%;
+    right:-20%;
+    bottom: -30%;
     width: 330px;
     height: 100px;
     padding-top: 1%;
-    font-size: 5rem;
+    font-size: 10rem;
     font-weight: 100;
     font-weight: bolder;
-    color: rgb(192, 6, 183);
+    color: white;
 }
 
 .mappajob img {
