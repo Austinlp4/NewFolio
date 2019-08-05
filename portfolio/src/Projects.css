@@ -86,6 +86,32 @@
     }
 }
 
+@media (max-width: 1210px){
+  .projects{
+      margin-right: 200px;
+  }
+  .project-container{
+      max-width: 800px;
+      width: 100%;
+  }
+  .palette, .mappajob{
+      max-width: 800px;
+      width: 100%;
+  }
+
+  .palette img{
+    max-width: 800px;
+    width: 100%;
+    height: auto;
+  }
+
+  .mappajob img{
+    max-width: 800px;
+    width: 100%;
+    height: auto;
+  }
+}
+
 .grad-container5{
     display: flex;
     width: 400px;
@@ -100,6 +126,15 @@
     color: white;
     animation-name: navone-s;
     animation-duration: 3s;
+}
+
+@media (max-width: 1100px){
+  .grad-container5{
+    top: 0;
+    flex-direction: row;
+    width: 100%;
+    animation-name: none;
+  }
 }
 
 .grad-bar-p4 {
@@ -121,12 +156,12 @@
   cursor: pointer;
 }
 
-@media (max-width: 1700px){
+/* @media (max-width: 1700px){
   .grad-bar-s2{
     width: 185px;
     background: rgb(13, 116, 194);
   }
-}
+} */
 
 
 .grad-bar-p3, .grad-bar-p1, .grad-bar-p2, .grad-bar-p5 {
@@ -195,5 +230,21 @@
     100%{
       width: 185px;
       color: white;
+    }
+  }
+
+  @media (max-width: 1100px){
+    .grad-bar-p1,.grad-bar-p2,.grad-bar-p3,
+    .grad-bar-p4, .grad-bar-p5, .grad-bar-p6{
+      font-size: 1.5rem;
+      background: none;
+      width: 150px;
+      margin-top: 0;
+      text-align: center;
+      animation-name: none;
+    }
+    .grad-bar-p1:hover,.grad-bar-p2:hover,.grad-bar-p3:hover,
+    .grad-bar-p4:hover, .grad-bar-p5:hover, .grad-bar-p6:hover{
+      background: none;
     }
   }

@@ -88,6 +88,12 @@
   margin-top: 5px;
 }
 
+@media(max-width: 655px){
+  .location, .faytown{
+    display: none;
+  }
+}
+
 .barcont{
     display: flex;
     flex-direction: column;
@@ -124,6 +130,15 @@
     position: absolute;
     top: 20%;
     right: 0;
+}
+
+@media (max-width: 1100px){
+  .grad-container3{
+    top: 0;
+    flex-direction: row;
+    width: 100%;
+    animation-name: none;
+  }
 }
 
 .grad-container3 a {
@@ -242,5 +257,21 @@
     100%{
       width: 185px;
       color: white;
+    }
+  }
+
+  @media (max-width: 1499px){
+    .grad-bar-a1,.grad-bar-a2,.grad-bar-a3,
+    .grad-bar-a4, .grad-bar-a5, .grad-bar-a6{
+      font-size: 1.5rem;
+      background: none;
+      width: 150px;
+      margin-top: 0;
+      text-align: center;
+      animation-name: none;
+    }
+    .grad-bar-a1:hover,.grad-bar-a2:hover,.grad-bar-a3:hover,
+    .grad-bar-a4:hover, .grad-bar-a5:hover, .grad-bar-a6:hover{
+      background: none;
     }
   }

@@ -55,6 +55,12 @@ h1{
     font-size: 3rem;
   }
 }
+
+@media(max-width: 655px){
+  h1{
+    font-size: 2rem;
+  }
+}
 h1 span{
   font-family: 'Poiret One', cursive;
   text-shadow: 2px 2px rgb(191, 0, 255);
@@ -79,6 +85,18 @@ h2{
   font-weight: lighter;
   left: 55%;
   font-family: 'Poiret One', cursive;
+}
+
+@media(max-width: 860px){
+  h2{
+    left: 30%;
+  }
+}
+
+@media(max-width: 655px){
+  h2{
+    left: 20%;
+  }
 }
 
 @keyframes animate {
@@ -284,6 +302,14 @@ h1 span:nth-child(18){
   }
 }
 
+@media (max-width: 655px){
+  .grad-container1{
+    top: 2%;
+    flex-direction: row;
+    width: 100%;
+  }
+}
+
 .grad-bar4{
   background: rgb(192, 6, 183);
   width: 185px;
@@ -441,6 +467,13 @@ h1 span:nth-child(18){
   }
 }
 
+@media (max-width: 655px){
+  .grad-bar1,.grad-bar2,.grad-bar3,
+  .grad-bar4, .grad-bar5, .grad-bar6{
+    font-size: 1.2rem;
+  }
+}
+
 /* .grad-container2{
   width: 100px;
   right: 0;
@@ -503,6 +536,12 @@ h1 span:nth-child(18){
   margin-right: 10px;
   margin-top: 20px;
   animation: slide 3s forwards;
+}
+
+@media(max-width: 860px){
+  .social{
+    display: none;
+  }
 }
 
 @keyframes slide {
