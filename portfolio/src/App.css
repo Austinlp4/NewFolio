@@ -435,6 +435,10 @@ h1 span:nth-child(18){
     margin-top: 0;
     text-align: center;
   }
+  .grad-bar1:hover,.grad-bar2:hover,.grad-bar3:hover,
+  .grad-bar4:hover, .grad-bar5:hover, .grad-bar6:hover{
+    background: none;
+  }
 }
 
 /* .grad-container2{

@@ -1,4 +1,85 @@
+.contact{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact h4{
+    color: white;
+    font-size: 2rem;
+    font-weight: lighter;
+}
+
+.contact nav{
+    top: 0;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.contact nav a{
+    margin: 20px 50px;
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+}
+
 .contact div{
     display: flex;
     flex-direction: column;
+    width: 45%;
+    height: 300px;
+    justify-content: space-between;
+}
+
+.contact div input{
+    height: 30px;
+    background: transparent;
+    border: 1px solid rgb(192, 6, 183);
+    border-radius: 15px;
+    padding: 2px 5px;
+    color: white;
+}
+
+.contact div input:focus {
+    outline: none;
+}
+
+.contact div input::placeholder{
+    color: white;
+}
+
+.contact div textarea{
+    height: 200px;
+    background: transparent;
+    border: 1px solid rgb(192, 6, 183);
+    border-radius: 15px;
+    padding: 5px 10px;
+    color: white;
+}
+
+.contact div textarea:focus {
+    outline: none;
+}
+
+.contact div textarea::placeholder{
+    color: white;
+}
+
+.contact div a{
+    text-decoration: none;
+    height: 40px;
+    width: 150px;
+    background-color: rgb(192, 6, 183);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.contact div a:hover{
+    background-color: rgb(13, 116, 194);
 }

@@ -105,11 +105,7 @@ class App extends Component {
                       </div>
                       <div className="grad-bar5">
                         {' '}
-                        <a href="#Projects">Projects</a>
-                      </div>
-                      <div className="grad-bar6">
-                        {' '}
-                        <a href="#Blog">Blog</a>
+                        <a href="#Projects1">Projects</a>
                       </div>
                       </div>
                     </div>
@@ -191,14 +187,26 @@ class App extends Component {
                   </div>
                   {this.state.about ? (<div>
                       <div className="grad-container3">
-                        <div className="grad-bar-a1">Contact</div>
-                        <div className="grad-bar-a2">Skills</div>
+                        <div className="grad-bar-a1">
+                        {' '}
+                        <a href="#Contact">Contact</a>
+                        </div>
+                        <div className="grad-bar-a2">
+                        {' '}
+                        <a href="#Skills">Skills</a>
+                        </div>
                         <div className="grad-bar-a3">
                         {' '}
                         <a href="#About">About Me</a>
                       </div>
-                      <div className="grad-bar-a4"> Projects </div>
-                      <div className="grad-bar-a5"> Blog </div>
+                      <div className="grad-bar-a4">
+                      {' '}
+                        <a href="#Projects1">Projects</a>
+                      </div>
+                      <div className="grad-bar-a5">
+                      {' '}
+                        <a href="#Home">Home</a>
+                      </div>
                       </div>
                   </div>) : null}
                 </div>
@@ -260,20 +268,32 @@ class App extends Component {
                     </div>
                     {this.state.skills ? (<div>
                       <div className="grad-container4">
-                        <div className="grad-bar-s1">Contact</div>
-                        <div className="grad-bar-s2">Skills</div>
+                        <div className="grad-bar-s1">
+                        {' '}
+                        <a href="#Contact">Contact</a>
+                        </div>
+                        <div className="grad-bar-s2">
+                        {' '}
+                        <a href="#Skills">Skills</a>
+                        </div>
                         <div className="grad-bar-s3">
                         {' '}
                         <a href="#About">About Me</a>
                       </div>
-                      <div className="grad-bar-s4"> Projects </div>
-                      <div className="grad-bar-s5"> Blog </div>
+                      <div className="grad-bar-s4">
+                      {' '}
+                        <a href="#Projects1">Projects</a>
+                      </div>
+                      <div className="grad-bar-s5">
+                      {' '}
+                        <a href="#Home">Home</a>
+                      </div>
                       </div>
                   </div>) : null}
                   </div>
                 </div>
               <div className="section palette-container">
-                <div className="projects">
+                <div className="projects1">
                     <div className='project-container'>
                       <div className='palette'>
                           <img src={Palette} alt=""/>
@@ -284,20 +304,32 @@ class App extends Component {
                     </div>
                     {this.state.projects ? (<div>
                       <div className="grad-container5">
-                        <div className="grad-bar-p1">Contact</div>
-                        <div className="grad-bar-p2">Skills</div>
+                        <div className="grad-bar-p1">
+                        {' '}
+                        <a href="#Contact">Contact</a>
+                        </div>
+                        <div className="grad-bar-p2">
+                        {' '}
+                        <a href="#Skills">Skills</a>
+                        </div>
                         <div className="grad-bar-p3">
                         {' '}
                         <a href="#About">About Me</a>
                       </div>
-                      <div className="grad-bar-p4"> Projects </div>
-                      <div className="grad-bar-p5"> Blog </div>
+                      <div className="grad-bar-p4">
+                      {' '}
+                        <a href="#Projects1">Projects</a>
+                      </div>
+                      <div className="grad-bar-p5">
+                      {' '}
+                        <a href="#Home">Home</a>
+                      </div>
                       </div>
                   </div>) : null}
                 </div>
               </div>
               <div className="section mappajob-container">
-                <div className="projects">
+                <div className="projects2">
                     <div className='project-container'>
                       <div className='mappajob'>                    
                           <img src={Mappa} alt=""/>
@@ -306,20 +338,39 @@ class App extends Component {
                     </div>
                     {this.state.projects ? (<div>
                       <div className="grad-container5">
-                        <div className="grad-bar-p1">Contact</div>
-                        <div className="grad-bar-p2">Skills</div>
+                      <div className="grad-bar-p1">
+                        {' '}
+                        <a href="#Contact">Contact</a>
+                        </div>
+                        <div className="grad-bar-p2">
+                        {' '}
+                        <a href="#Skills">Skills</a>
+                        </div>
                         <div className="grad-bar-p3">
                         {' '}
                         <a href="#About">About Me</a>
                       </div>
-                      <div className="grad-bar-p4"> Projects </div>
-                      <div className="grad-bar-p5"> Blog </div>
+                      <div className="grad-bar-p4">
+                      {' '}
+                        <a href="#Projects1">Projects</a>
+                      </div>
+                      <div className="grad-bar-p5">
+                      {' '}
+                        <a href="#Home">Home</a>
+                      </div>
                       </div>
                   </div>) : null}
                 </div>
               </div>
               <div className="section">
                 <div className="contact">
+                  <nav>
+                    <a href="#Home">Home</a>
+                    <a href="#About">About</a>
+                    <a href="#Skills">Skills</a>
+                    <a href="#Projects1">Projects</a>
+                  </nav>
+                  <h4>Talk to Me!</h4>
                 <ReactContactForm to="apendergrast44@gmail.com" class="form"/>
                 </div>
               </div>
