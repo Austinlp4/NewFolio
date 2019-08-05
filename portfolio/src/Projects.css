@@ -4,8 +4,15 @@
     justify-content: center;
     max-height: 800px;
     padding-right: 200px;
+    
 }
-
+@media(max-width: 1300px){
+     .projects{
+       padding-right: 100px;
+       height: 500px;
+       padding-top: 150px;
+     } 
+}
 
 .project-container{
     display: flex;
@@ -51,6 +58,12 @@
     color: white;
 }
 
+@media(max-width: 1300px){
+  .palette .overlay, .mappajob .overlay{
+    bottom: -5%;
+  }
+}
+
 .mappajob img {
     width: 1000px;
 }
@@ -60,13 +73,16 @@
         margin-right: 200px;
     }
     .project-container{
-        max-width: 600px;
+        max-width: 800px;
     }
     .palette, .mappajob{
-        max-width: 600px;
+        max-width: 800px;
     }
     .palette img{
-        width: 600px;
+        width: 800px;
+    }
+    .mappajob img{
+      width: 800px;
     }
 }
 

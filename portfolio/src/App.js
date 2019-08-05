@@ -3,6 +3,7 @@ import './App.css';
 import './About.css';
 import './Skills.css';
 import './Projects.css';
+import './Contact.css';
 import smoke from './video/smoke.mp4';
 import ReactFullpage from '@fullpage/react-fullpage';
 import propic from './images/profile.png';
@@ -67,7 +68,7 @@ class App extends Component {
   render() {
     return (
       <ReactFullpage
-        anchors={['Home', 'About', 'Skills', 'Projects1','Projects2', 'Blog', 'Contact']}
+        anchors={['Home', 'About', 'Skills', 'Projects1','Projects2', 'Contact']}
         scrollOverflow={true}
         onLeave={this.onLeave.bind(this)}
         afterLoad={this.afterLoad.bind(this)}
@@ -318,13 +319,8 @@ class App extends Component {
                 </div>
               </div>
               <div className="section">
-                <div className="blog">
-                    
-                </div>
-              </div>
-              <div className="section">
                 <div className="contact">
-                <ReactContactForm to="apendergrast44@gmail.com" />
+                <ReactContactForm to="apendergrast44@gmail.com" class="form"/>
                 </div>
               </div>
             </div>
