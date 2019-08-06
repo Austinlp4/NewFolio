@@ -300,6 +300,7 @@ class App extends Component {
                           <h4 className='overlay'>
                             01
                           </h4>
+                          <a class='enter-btn' href='https://www.pallet-app.com/' target='_blank'><span class='enter'>Enter </span></a>
                       </div>
                     </div>
                     {this.state.projects ? (<div>
@@ -333,7 +334,8 @@ class App extends Component {
                     <div className='project-container'>
                       <div className='mappajob'>                    
                           <img src={Mappa} alt=""/>
-                          <h4 className="overlay">02</h4>                       
+                          <h4 className="overlay">02</h4>
+                          <a class='enter-btn' target='_blank' href='https://www.mappajob.com/'><span class='enter'>Enter </span></a>                       
                       </div>
                     </div>
                     {this.state.projects ? (<div>

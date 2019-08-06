@@ -58,6 +58,30 @@
     color: white;
 }
 
+.palette .enter-btn, .mappajob .enter-btn{
+  position: absolute;
+  left: 0;
+  bottom: 25%;
+  width: 75px;
+  height: 75px;
+  font-size: 1.2rem;
+  text-decoration: none;
+  background-color: rgb(192, 6, 183);
+  z-index: 25;
+  border-radius: 37.5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  color: white;
+}
+
+.palette .enter-btn:hover, .mappajob .enter-btn:hover{
+  transition: width 1s;
+  width: 200px;
+}
+
+
 @media(max-width: 1300px){
   .palette .overlay, .mappajob .overlay{
     bottom: -5%;
