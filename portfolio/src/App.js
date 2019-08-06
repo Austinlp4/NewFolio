@@ -17,8 +17,8 @@ import jest from './images/grad-jest.png';
 import python from './images/grad-python.png';
 import photoshop from './images/grad-photoshop.png';
 import xd from './images/grad-xd.png';
-import Mappa from './images/mappajob-project.PNG';
-import Palette from './images/palette-project.PNG';
+import Mappa from './images/mapp-two.PNG';
+import Palette from './images/palette-two.PNG';
 import ReactContactForm from 'react-mail-form';
 
 
